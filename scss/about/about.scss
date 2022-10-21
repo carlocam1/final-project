@@ -1,0 +1,51 @@
+.about {
+    min-height: 700px;
+    max-width: 1280px;
+    // background-color: aqua;
+
+    .hero {
+        padding-top: 178px;
+
+        .hero-image {
+            margin: 0 auto;
+            max-width: 980px;
+            min-height: 380px;
+            background-image: linear-gradient(to right, rgba(255,209,64,0.80), rgba(255, 209, 64, 0.80)) ,url(../images/about.jpg);
+        }
+    }
+
+    .our-history {
+        margin: 0 auto;
+        max-width: 980px;
+        min-height: 172px;
+        margin-top: -27px;
+        margin-bottom: 95px;
+        // background-color: brown;
+
+        .history-content {
+            p {
+                font-family: GillSans-Light;
+                font-size: 16px;
+                font-style: italic;
+                line-height: 19px;
+                margin-top: 37px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .about {
+        .our-history {
+            max-width: 600px;
+        }
+    }  
+}
+
+@media only screen and (max-width: 630px) {
+    .about {
+        .our-history {
+            max-width: 400px;
+        }
+    }  
+}

@@ -1,0 +1,97 @@
+.gallery1 {
+    .gallery-hero {
+        background-image: linear-gradient(to right, rgba(255,209,64,0.80), rgba(255, 209, 64, 0.80)) ,url(../images/gallery/1.png); 
+
+        .gallery-callout {
+            color: #FFD140;
+        }
+    } 
+}
+
+.gallery2 {
+    .gallery-hero {
+        background-image: linear-gradient(to right, rgba(238,67,103,0.80), rgba(238,67,103,0.80)) ,url(../images/gallery/2.jpeg);
+        .gallery-callout {
+            color: #EE4367;
+        }
+    } 
+}
+
+.gallery3 {
+    .gallery-hero {
+        background-image: linear-gradient(to right, rgba(8,173,105,0.80), rgba(8,173,105,0.80)) ,url(../images/gallery/3.jpg);
+        .gallery-callout {
+            color: #08AD69;
+        }
+    } 
+}
+
+.gallery4 {
+    .gallery-hero {
+        background-image: linear-gradient(to right, rgba(84,13,110,0.80), rgba(84,13,110,0.80)) ,url(../images/gallery/4.jpg);
+        .gallery-callout {
+            color: #540D6E;
+
+            .callout-num {
+                padding-left: 10px;
+            }
+
+            .callout-description {
+                p {
+                    padding: 23px 0 0 30px;
+                    font-size: 115px;
+                }
+            }
+        }
+    } 
+}
+
+@media only screen and (max-width: 750px){
+    .gallery4 {
+        .gallery-hero {
+            .gallery-callout {
+                .callout-description {
+                    p {
+                        padding: 0;
+                        font-size: 85px;
+                    }
+                }
+            }
+    
+        } 
+    }
+}
+
+.gallery5 {
+    .gallery-hero {
+        background-image: linear-gradient(to right, rgba(59,206,171,0.80), rgba(59,206,171,0.80)) ,url(../images/gallery/5.png);
+        .gallery-callout {
+            color: #3BCEAB;
+
+            .callout-description {
+                p {
+                    padding: 23px 0 0 40px;
+                    font-size: 115px;
+                }
+            }
+        }
+
+    } 
+}
+
+@media only screen and (max-width: 650px){
+    .gallery5 {
+        .gallery-hero {
+            .gallery-callout {
+                .callout-description {
+                    p {
+                        padding: 0;
+                        font-size: 90px;
+                    }
+                }
+            }
+    
+        } 
+    }
+}
+

@@ -1,0 +1,34 @@
+.gallery {
+    margin: 0 auto;
+    min-height: 700px;
+    max-width: 980px;
+    
+    // background-color: aqua;
+
+    .hero {
+        padding-top: 158px;
+        .hero-gallery {
+            max-width: 980px;
+            min-height: 582px;
+            // background-color: cadetblue;
+
+            .galleries {
+                width: 100%;
+                min-height: 400px;
+                margin-top: 30px;
+                // background-color: bisque;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin-bottom: 60px;
+            }
+
+            @media only screen and (max-width: 980px) {
+                .galleries{
+                justify-content: center;
+               
+                }              
+            }
+        }       
+    }
+}

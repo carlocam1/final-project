@@ -1,0 +1,95 @@
+.contact {
+    margin: 0 auto;
+    max-width: 980px;
+    min-height: 500px;
+    padding-top: 157px;
+    // background-color: aqua;
+
+    .contact-container {
+        // background-color: blueviolet;
+        max-width: 980px;
+        min-height: 500px;
+        margin-top: 66px;
+        margin-bottom: 90px;
+
+        display: flex;
+        justify-content: space-between;
+
+        .map {
+            max-width: 400px;
+            // background-color: cadetblue;
+            .map-image {
+                width: 400px;
+                height: 442px;
+                margin-bottom: 34px;
+                background-color
+                : grey;
+
+                background-image: url(../images/map.jpg);
+            }
+        }
+
+        .contact-form {
+            max-width: 529px;
+            min-height: 529px;
+            // background-color: beige;
+
+            .text-fields {
+                width: 100%;
+                height: 60px;
+                margin-bottom: 21px;
+                padding-left: 20px;
+            }
+
+            input {
+                background-color: #f1ebeb;
+                border: none;
+            }
+
+            .button {
+                margin: 0;
+                width: 167px;
+                padding: 20px;
+                color: #fff;
+                font-size: 16px;
+                font-family: Gillsans;
+                text-transform: uppercase;
+                background-color: #EE4367;
+            }
+
+            textarea{
+                padding: 20px;
+                width: 100%;
+                height: 200px;
+                border: none;
+                background-color: #f1ebeb;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 990px) { 
+    .contact-container {   
+        flex-direction: column-reverse;
+        align-items: center;
+    }  
+}
+
+@media only screen and (max-width: 990px) { 
+    .contact-container {   
+        .contact-form {
+            width: 400px;
+        }
+    }  
+}
+
+@media only screen and (max-width: 990px) {
+    .header-h1 {
+        margin: 0 auto;
+        text-align: center;
+        h1 {
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,104 @@
+.gallery-1 {
+    width: 487px;
+    height: 187px;
+    background-color: burlywood;
+        background-image: linear-gradient(to right, rgba(255,209,64,0.80), rgba(255, 209, 64, 0.80)) ,url(../images/gallery/1.png);
+    margin-bottom: 20px;
+    // margin-right: 19px;
+}
+
+@media only screen and (max-width: 980px) {
+    .gallery-1 {
+        width: 603px;        
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .gallery-1 {
+        width: 450px;        
+    }
+}
+
+.gallery-2 {
+    width: 187px;
+    height: 187px;
+    background-color: burlywood;
+    background-image: linear-gradient(to right, rgba(238,67,103,0.80), rgba(238,67,103,0.80)) ,url(../images/gallery/2.jpeg);
+    margin-bottom: 20px;
+    // margin-right: 20px;
+    // margin-left: 20px;
+}
+
+@media only screen and (max-width: 980px) {
+    .gallery-2 {
+        width: 603px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .gallery-2 {
+        width: 450px;        
+    }
+}
+
+.gallery-3 {
+    width: 265px;
+    height: 187px;
+    background-color: burlywood;
+    background-image: linear-gradient(to right, rgba(8,173,105,0.80), rgba(8,173,105,0.80)) ,url(../images/gallery/3.jpg);
+    margin-bottom: 20px;
+    // margin-right: 20px;
+}
+
+@media only screen and (max-width: 980px) {
+    .gallery-3 {
+        width: 603px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .gallery-3 {
+        width: 450px;        
+    }
+}
+
+.gallery-4 {
+    width: 603px;
+    height: 306px;
+    background-color: burlywood;
+    background-image: linear-gradient(to right, rgba(84,13,110,0.80), rgba(84,13,110,0.80)) ,url(../images/gallery/4.jpg);
+    margin-bottom: 20px;
+    // margin-left: 20px;
+}
+
+@media only screen and (max-width: 980px) {
+    .gallery-4 {
+        width: 603px;
+        
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .gallery-4 {
+        width: 450px;        
+    }
+}
+
+.gallery-5 {
+    width: 355px;
+    height: 306px;
+    background-color: burlywood;
+    background-image: linear-gradient(to right, rgba(59,206,171,0.80), rgba(59,206,171,0.80)) ,url(../images/gallery/5.png);
+}
+
+@media only screen and (max-width: 980px) {
+    .gallery-5 {
+        width: 603px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .gallery-5 {
+        width: 450px;        
+    }
+}

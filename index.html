@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="site-container">
+      <nav>
+        <div class="logo">
+          <img src="images/logo-white.svg" alt="" />
+        </div>
+        <div class="links">
+          <a id="home" href="#">home<span>/</span></a>
+          <a id="about" href="#">about<span>/</span></a>
+          <a id="gallery" href="#">gallery<span>/</span></a>
+          <a id="blog" href="#">blog<span>/</span></a>
+          <a id="contact" href="#">contact</a>
+        </div>
+      </nav>
+      
+      <div id="app"></div>
+
+      <footer>
+        <div class="footer-container">
+          <div class="logo">
+            <img src="images/logo-white.svg" alt="">
+          </div>
+          <div class="address ">
+            <p>
+              420 Smoke St. Los Angeles, CA 46318 <br />(213)-467-2627 <br />
+              info@eventsy.com
+            </p>
+          </div>
+          <div class="subscribe">
+            <input
+              type="text"
+              placeholder="Enter your email to join newsletter…"
+            />
+            <div class="input-label">
+              <p>SUBSCRIBE</p>
+            </div>
+        </div>
+        <div class="media-container align">
+          <div class="social-media">
+            <img src="images/social-media/facebook.svg" alt="">
+          </div>
+          <div class="social-media">
+            <img src="images/social-media/instagram.svg" alt="">
+          </div>
+          <div class="social-media">
+            <img src="images/social-media/twitter.svg" alt="">
+          </div>
+        </div>
+          <div class="copyright">
+            Copyright 2019 eventsy. All rights reserved
+          </div>
+      </footer>
+      
+      <script src="lib/jquery-3.6.1.min.js"></script>
+      <script type="module" src="model/model.js"></script>
+      <!-- <script type="module" src="app/anchors.js"></script> -->
+      <script type="module" src="app/app.js"></script>
+    </div>
+  </body>
+</html>
